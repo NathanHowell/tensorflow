@@ -18,4 +18,8 @@ limitations under the License.
 
 #include "tensorflow/core/platform/types.h"
 
+// Return the filename of a dynamically linked library formatted according to
+// platform naming conventions
+string FormatLibraryFileName(const string& name, const string& version);
+
 #endif  // TENSORFLOW_PLATFORM_PORT_H_
