@@ -160,7 +160,7 @@ function LinkOneDir {
 }
 export -f LinkOneDir
 
-# Build links for all files under the directory, including subdirectoreis.
+# Build links for all files under the directory, including subdirectories.
 function LinkAllFiles {
   SRC_DIR=$1
   DST_DIR=$2
