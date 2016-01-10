@@ -20,6 +20,9 @@ limitations under the License.
 
 // Return the filename of a dynamically linked library formatted according to
 // platform naming conventions
-string FormatLibraryFileName(const string& name, const string& version);
+namespace tensorflow {
+namespace port {
+std::string FormatLibraryFileName(const std::string& name, const std::string& version);
+}}
 
 #endif  // TENSORFLOW_PLATFORM_PORT_H_
